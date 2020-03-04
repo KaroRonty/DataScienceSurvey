@@ -1,0 +1,6 @@
+tic <- Sys.time()
+source("EDA.R")
+source("Modeling.R")
+source("Model_plotting.R")
+source("SOM_modeling.R")
+(toc <- Sys.time() - tic)
